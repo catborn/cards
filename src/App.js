@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
 import data from "./components/data";
-import Cards from "./components/Cards";
+import Card from "./components/Card";
 
 function App() {
   return (
     <React.Fragment className="App">
       {data.map((data) => {
-        return <Cards title={data.title} />;
+        return (
+          <Card title={data.title} price={data.price} speed={data.speed} />
+        );
       })}
     </React.Fragment>
   );
