@@ -2,8 +2,9 @@ function Card(props) {
   return (
     <div>
       <h2>{props.title}</h2>
-      <p>{props.price}</p>
+      <p>руб {props.price} /месяц</p>
       <p>{props.speed}</p>
+      <p>Объем включенного трафика не ограничен</p>
     </div>
   );
 }
