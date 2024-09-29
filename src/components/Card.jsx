@@ -1,5 +1,4 @@
 import styles from "./Сard.module.css";
-import data from "./data";
 
 function Card(props) {
   return (
