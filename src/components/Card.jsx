@@ -4,8 +4,10 @@ function Card(props) {
   return (
     <div className={styles.card} style={{ backgroundColor: props.color }}>
       <h2>{props.title}</h2>
-      <p>руб {props.price} /месяц</p>
-      <p>{props.speed}</p>
+      <p>руб</p>
+      <p className={styles.price}>{props.price}</p>
+      <p>в месяц</p>
+      <p>До {props.speed} Мбит/сек</p>
       <p>Объем включенного трафика не ограничен</p>
     </div>
   );
