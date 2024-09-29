@@ -8,7 +8,12 @@ function App() {
     <React.Fragment className="App">
       {data.map((data) => {
         return (
-          <Card title={data.title} price={data.price} speed={data.speed} />
+          <Card
+            title={data.title}
+            price={data.price}
+            speed={data.speed}
+            color={data.color}
+          />
         );
       })}
     </React.Fragment>

@@ -6,11 +6,9 @@
   width: 18%;
   padding: 20px;
   margin: 10px;
-  background-color: var(--first-color);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .card:hover {
-  background-color: var(--second-color);
   transform: scale(1.1);
 }
