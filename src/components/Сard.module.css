@@ -1,1 +1,10 @@
-@import "variables";
+/* @import "variables"; */
+
+.card {
+  display: inline-block;
+  justify-content: space-evenly;
+  width: 18%;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

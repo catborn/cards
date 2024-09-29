@@ -1,6 +1,8 @@
+import styles from "./Сard.module.css";
+
 function Card(props) {
   return (
-    <div>
+    <div className={`${styles.card}`}>
       <h2>{props.title}</h2>
       <p>руб {props.price} /месяц</p>
       <p>{props.speed}</p>
