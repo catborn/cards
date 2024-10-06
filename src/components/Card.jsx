@@ -7,7 +7,7 @@ function Card(props) {
 
   const cardStyle = {
     backgroundColor: props.color,
-    height: props.price === 550 ? "380px" : "360px",
+    height: props.price === 550 ? "400px" : "360px",
     width: props.price === 550 ? "290px" : "250px",
   };
 
