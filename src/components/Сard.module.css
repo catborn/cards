@@ -7,6 +7,8 @@
   margin: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   color: whitesmoke;
+  cursor: pointer;
+  position: relative;
 }
 
 .card:hover {
@@ -15,4 +17,13 @@
 
 .price {
   font-size: 2.5rem;
+}
+
+.selected {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: whitesmoke;
+  padding: 3px;
+  text-align: center;
 }
